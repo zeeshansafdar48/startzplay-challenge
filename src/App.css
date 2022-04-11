@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  padding: 20px 0px;
+}
+
+.img-responsive {
+  height: auto;
+  width: 100%;
+}
+
+.layout__wrapper {
+  margin-bottom: 20px;
+}
+
+.carousel__title {
+  margin: 5px 0px; 
+  font-weight: normal
+}
+
+.slick-slide>div {padding: 0 5px;}
+
+.centered {
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
